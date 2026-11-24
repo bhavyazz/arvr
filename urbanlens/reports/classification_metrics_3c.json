@@ -1,0 +1,118 @@
+{
+  "model": {
+    "type": "RandomForestClassifier",
+    "n_estimators": 150,
+    "max_depth": 16,
+    "random_state": 42,
+    "n_classes": 3,
+    "class_weights": "balanced",
+    "features": [
+      "B2",
+      "B3",
+      "B4",
+      "B8",
+      "B11",
+      "B12",
+      "NDVI",
+      "NDBI",
+      "NDWI"
+    ],
+    "dropped_esa_classes": "40 (Cropland), 60 (Bare/sparse), 100 (Moss/lichen) \u2014 excluded from training and evaluation, not merged"
+  },
+  "accuracy_2025_vs_worldcover2021": {
+    "reference": "ESA WorldCover 2021 (held-out 25% spatial blocks, 500m)",
+    "overall_accuracy": 0.8125,
+    "macro_precision": 0.7044,
+    "macro_recall": 0.8677,
+    "macro_f1": 0.7565,
+    "per_class": {
+      "Vegetation": {
+        "precision": 0.9089,
+        "recall": 0.7794,
+        "f1": 0.8392,
+        "n_test": 41889
+      },
+      "Built-up": {
+        "precision": 0.7154,
+        "recall": 0.8636,
+        "f1": 0.7826,
+        "n_test": 24365
+      },
+      "Water": {
+        "precision": 0.4888,
+        "recall": 0.9601,
+        "f1": 0.6478,
+        "n_test": 953
+      }
+    },
+    "confusion_matrix": [
+      [
+        32649,
+        8352,
+        888
+      ],
+      [
+        3254,
+        21042,
+        69
+      ],
+      [
+        20,
+        18,
+        915
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "Vegetation",
+      "Built-up",
+      "Water"
+    ]
+  },
+  "accuracy_2018_vs_dynamic_world_2018": {
+    "reference": "Google Dynamic World 2018 (dry-season label_mode, 15 scenes) \u2014 PROXY ONLY, not ground truth",
+    "caveat": "2018 classification accuracy is UNVERIFIED. No authoritative in-situ ground truth exists for 2018 over Ward 35. Dynamic World 2018 is an automated deep-learning model output that over-predicts built-up surfaces on dry peri-urban soils. Agreement with DW is a proxy measure, not validation accuracy.",
+    "overall_agreement": 0.581,
+    "macro_f1": 0.5283,
+    "per_class": {
+      "Vegetation": {
+        "precision": 0.7984,
+        "recall": 0.6663,
+        "f1": 0.7264
+      },
+      "Built-up": {
+        "precision": 0.0403,
+        "recall": 0.0784,
+        "f1": 0.0532
+      },
+      "Water": {
+        "precision": 0.8543,
+        "recall": 0.7617,
+        "f1": 0.8053
+      }
+    },
+    "confusion_matrix": [
+      [
+        175731,
+        87248,
+        759
+      ],
+      [
+        43198,
+        3675,
+        13
+      ],
+      [
+        1182,
+        234,
+        4526
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "Vegetation",
+      "Built-up",
+      "Water"
+    ]
+  },
+  "shadow_claim": "Topographic shadowing from quarry faces was identified as a candidate cause of water false positives, based on spectral similarity to water (suppressed NIR). No quantitative shadow mask test was performed and no percentage is attributed to shadows. This cause remains an untested hypothesis.",
+  "label_noise_note": "Label noise from temporal mismatch (WorldCover 2021 applied to 2018 and 2025 imagery) is of unquantified extent. The '5-8% label noise' estimate stated in earlier drafts was an unverified guess and has been REMOVED."
+}

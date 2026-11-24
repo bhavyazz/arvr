@@ -1,0 +1,11 @@
+{
+  "osm_node_id": 1588150123,
+  "centroid_lat": 12.9165,
+  "centroid_lon": 12.9141,
+  "node_tags": {},
+  "admin_relation_found": false,
+  "bbox_only": true,
+  "boundary_type": "OSM-centred bounding box \u2014 Pattanagere is a named locality node (OSM type=quarter) with no polygon in OSM. Bounding box is derived from the node centroid \u00b1~1.5 km, sized to encompass the known residential extent of the locality.",
+  "area_km2": 10.027,
+  "retrieval_date": "2026-11-10T12:46:53.493714+00:00"
+}

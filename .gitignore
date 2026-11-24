@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.env
+.venv/
+env/
+venv/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+
+# Data outputs (large rasters)
+urbanlens/data/raw/
+urbanlens/data/processed/
+*.tif
+*.geotiff

@@ -1,0 +1,83 @@
+{
+  "study_area": "BBMP Ward 35 (Hemmigepura)",
+  "crs": "EPSG:32643",
+  "bounds": {
+    "left": 767170.0,
+    "bottom": 1420760.0,
+    "right": 776970.0,
+    "top": 1429960.0,
+    "width_m": 9800.0,
+    "height_m": 9200.0,
+    "crs": "EPSG:32643",
+    "grid_shape": [
+      920,
+      980
+    ]
+  },
+  "validation_line": "2018 accuracy unverified. 2025 = cross-year validation against WorldCover 2021.",
+  "areas_ha": {
+    "2018": {
+      "vegetation": 2309.15,
+      "builtup": 927.68,
+      "water": 53.91
+    },
+    "2025": {
+      "vegetation": 1932.42,
+      "builtup": 1303.92,
+      "water": 54.4
+    }
+  },
+  "pixel_counts": {
+    "2018": {
+      "vegetation": 230915,
+      "builtup": 92768,
+      "water": 5391
+    },
+    "2025": {
+      "vegetation": 193242,
+      "builtup": 130392,
+      "water": 5440
+    }
+  },
+  "accuracy_2025": {
+    "overall_accuracy": 0.8125,
+    "macro_f1": 0.7565,
+    "per_class": {
+      "Vegetation": {
+        "precision": 0.9089,
+        "recall": 0.7794,
+        "f1": 0.8392,
+        "n_test": 41889
+      },
+      "Built-up": {
+        "precision": 0.7154,
+        "recall": 0.8636,
+        "f1": 0.7826,
+        "n_test": 24365
+      },
+      "Water": {
+        "precision": 0.4888,
+        "recall": 0.9601,
+        "f1": 0.6478,
+        "n_test": 953
+      }
+    }
+  },
+  "accuracy_2018": {
+    "overall_agreement": 0.581,
+    "macro_f1": 0.5283,
+    "status": "unverified"
+  },
+  "ndwi_water_ha": {
+    "2018": 13.4,
+    "2025": 7.73,
+    "net_change_ha": -5.67,
+    "change_pct": -42.3,
+    "threshold": 0.3
+  },
+  "ndwi_water_pixels": {
+    "2018": 1340,
+    "2025": 773,
+    "net_change_pixels": -567
+  }
+}

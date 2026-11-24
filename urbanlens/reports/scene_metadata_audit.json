@@ -1,0 +1,214 @@
+{
+  "2018": [
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20180104T051209_20180104T051446_T43PGQ",
+      "acquisition_date": "2018-01-04 05:25:10 UTC",
+      "spacecraft": "Sentinel-2B",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 5.35,
+      "passed_filter": true
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20180109T051201_20180109T051600_T43PGQ",
+      "acquisition_date": "2018-01-09 05:25:11 UTC",
+      "spacecraft": "Sentinel-2A",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 3.66,
+      "passed_filter": true
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20180129T051041_20180129T052323_T43PGQ",
+      "acquisition_date": "2018-01-29 05:25:14 UTC",
+      "spacecraft": "Sentinel-2A",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 0,
+      "passed_filter": true
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20180203T051019_20180203T051014_T43PGQ",
+      "acquisition_date": "2018-02-03 05:25:12 UTC",
+      "spacecraft": "Sentinel-2B",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 0.22,
+      "passed_filter": true
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20180223T050809_20180223T051831_T43PGQ",
+      "acquisition_date": "2018-02-23 05:25:11 UTC",
+      "spacecraft": "Sentinel-2B",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 0.0,
+      "passed_filter": true
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20180310T050651_20180310T052317_T43PGQ",
+      "acquisition_date": "2018-03-10 05:25:15 UTC",
+      "spacecraft": "Sentinel-2A",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 12.77,
+      "passed_filter": true
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20180330T050651_20180330T051409_T43PGQ",
+      "acquisition_date": "2018-03-30 05:25:18 UTC",
+      "spacecraft": "Sentinel-2A",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 2.99,
+      "passed_filter": true
+    }
+  ],
+  "2025": [
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20250102T051221_20250102T052446_T43PGQ",
+      "acquisition_date": "2025-01-02 05:25:19 UTC",
+      "spacecraft": "Sentinel-2A",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 55.97,
+      "passed_filter": false
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20250107T051119_20250107T051747_T43PGQ",
+      "acquisition_date": "2025-01-07 05:25:20 UTC",
+      "spacecraft": "Sentinel-2B",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 1.23,
+      "passed_filter": true
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20250112T051151_20250112T052421_T43PGQ",
+      "acquisition_date": "2025-01-12 05:25:16 UTC",
+      "spacecraft": "Sentinel-2A",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 3.1,
+      "passed_filter": true
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20250117T051039_20250117T052047_T43PGQ",
+      "acquisition_date": "2025-01-17 05:25:18 UTC",
+      "spacecraft": "Sentinel-2B",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 23.13,
+      "passed_filter": false
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20250122T051151_20250122T051918_T43PGQ",
+      "acquisition_date": "2025-01-22 05:25:48 UTC",
+      "spacecraft": "Sentinel-2C",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 0.0,
+      "passed_filter": true
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20250127T051009_20250127T052104_T43PGQ",
+      "acquisition_date": "2025-01-27 05:25:22 UTC",
+      "spacecraft": "Sentinel-2B",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 4.03,
+      "passed_filter": true
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20250201T051101_20250201T052343_T43PGQ",
+      "acquisition_date": "2025-02-01 05:25:46 UTC",
+      "spacecraft": "Sentinel-2C",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 25.88,
+      "passed_filter": false
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20250206T050909_20250206T052454_T43PGQ",
+      "acquisition_date": "2025-02-06 05:25:21 UTC",
+      "spacecraft": "Sentinel-2B",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 0.0,
+      "passed_filter": true
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20250211T051001_20250211T052056_T43PGQ",
+      "acquisition_date": "2025-02-11 05:25:45 UTC",
+      "spacecraft": "Sentinel-2C",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 0.0,
+      "passed_filter": true
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20250216T050809_20250216T052111_T43PGQ",
+      "acquisition_date": "2025-02-16 05:25:24 UTC",
+      "spacecraft": "Sentinel-2B",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 0.0,
+      "passed_filter": true
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20250221T050851_20250221T052428_T43PGQ",
+      "acquisition_date": "2025-02-21 05:25:41 UTC",
+      "spacecraft": "Sentinel-2C",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 0.0,
+      "passed_filter": true
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20250226T050659_20250226T051939_T43PGQ",
+      "acquisition_date": "2025-02-26 05:25:23 UTC",
+      "spacecraft": "Sentinel-2B",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 0.0,
+      "passed_filter": true
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20250303T050741_20250303T052522_T43PGQ",
+      "acquisition_date": "2025-03-03 05:25:44 UTC",
+      "spacecraft": "Sentinel-2C",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 40.52,
+      "passed_filter": false
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20250308T050659_20250308T051834_T43PGQ",
+      "acquisition_date": "2025-03-08 05:25:22 UTC",
+      "spacecraft": "Sentinel-2B",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 0.08,
+      "passed_filter": true
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20250313T050711_20250313T052339_T43PGQ",
+      "acquisition_date": "2025-03-13 05:25:42 UTC",
+      "spacecraft": "Sentinel-2C",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 3.62,
+      "passed_filter": true
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20250315T051241_20250315T051235_T43PGQ",
+      "acquisition_date": "2025-03-15 05:25:32 UTC",
+      "spacecraft": "Sentinel-2A",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 0.0,
+      "passed_filter": true
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20250318T050659_20250318T051418_T43PGQ",
+      "acquisition_date": "2025-03-18 05:25:22 UTC",
+      "spacecraft": "Sentinel-2B",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 3.84,
+      "passed_filter": true
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20250323T050711_20250323T052426_T43PGQ",
+      "acquisition_date": "2025-03-23 05:25:42 UTC",
+      "spacecraft": "Sentinel-2C",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 36.73,
+      "passed_filter": false
+    },
+    {
+      "id": "COPERNICUS/S2_SR_HARMONIZED/20250328T050659_20250328T052423_T43PGQ",
+      "acquisition_date": "2025-03-28 05:25:21 UTC",
+      "spacecraft": "Sentinel-2B",
+      "mgrs_tile": "43PGQ",
+      "cloudy_pixel_percentage": 17.29,
+      "passed_filter": true
+    }
+  ]
+}
