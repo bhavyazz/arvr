@@ -17,3 +17,18 @@ urbanlens/data/raw/
 urbanlens/data/processed/
 *.tif
 *.geotiff
+
+# Unity (project at urbanlens/unity/UrbanLens) - generated caches, never commit
+urbanlens/unity/UrbanLens/[Ll]ibrary/
+urbanlens/unity/UrbanLens/[Tt]emp/
+urbanlens/unity/UrbanLens/[Oo]bj/
+urbanlens/unity/UrbanLens/[Bb]uild/
+urbanlens/unity/UrbanLens/[Bb]uilds/
+urbanlens/unity/UrbanLens/[Ll]ogs/
+urbanlens/unity/UrbanLens/[Uu]ser[Ss]ettings/
+urbanlens/unity/UrbanLens/*.csproj
+urbanlens/unity/UrbanLens/*.sln
+urbanlens/unity/UrbanLens/*.user
+urbanlens/unity/UrbanLens/*.pidb
+urbanlens/unity/UrbanLens/*.booproj
+urbanlens/unity/UrbanLens/sysinfo.txt
